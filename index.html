@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>VULN — Index</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <div class="site-top">
+      <img class="brand-type" src="resources/Tipo.jpg" alt="VULN Banner" />
+      <nav class="social">
+        <a href="#" aria-label="X">X</a>
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="GitHub">GH</a>
+      </nav>
+    </div>
+
+    <!-- Reference layout shell -->
+    <table width="76%" border="0" align="center" cellspacing="0" cellpadding="3" class="tableWidth">
+      <tr>
+        <td id="subTitle">VULN — Aggressive Index</td>
+      </tr>
+    </table>
+    <table width="76%" border="0" align="center" cellspacing="0" cellpadding="0" class="tableWidth">
+      <tr class="blak">
+        <td>
+          <table width="100%" border="0" align="center" cellspacing="1" cellpadding="0">
+            <tr>
+              <td colspan="6">
+                <table width="100%" border="0" align="center" cellspacing="0" cellpadding="10">
+                  <tr>
+                    <td id="pageContent">
+                      <!-- Hero: preserved dog + logo -->
+                      <section id="hero">
+                        <div class="dog-and-logo">
+                          <img id="dog" src="resources/perro.jpg" alt="Dog" />
+                          <img id="logo" src="resources/logo-vuln-12.jpg" alt="VULN Logo" />
+                        </div>
+                      </section>
+
+                      <h1 align="center">Index of locally available projects</h1>
+                      <table border="0" width="100%" cellspacing="1" cellpadding="0" class="tblRegular">
+                        <tr>
+                          <td background="fade.gif">
+                            &middot; <a href="VULN%20WEBSITE/index.html">VULN WEBSITE</a>
+                          </td>
+                        </tr>
+                      </table>
+                      <br />
+                      <h6 align="right">
+                        <i>Mirror and index adapted from HTTrack Website Copier</i>
+                      </h6>
+                    </td>
+                  </tr>
+                </table>
+              </td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+
+    <table width="76%" border="0" align="center" valign="bottom" cellspacing="0" cellpadding="0">
+      <tr>
+        <td id="footer"><small>&copy; VULN</small></td>
+      </tr>
+    </table>
+
+    <!-- SVG filter for dog distortion -->
+    <svg aria-hidden="true" focusable="false" width="0" height="0" style="position:absolute">
+      <filter id="dog-distort">
+        <feTurbulence id="dog-turb" type="fractalNoise" baseFrequency="0.006" numOctaves="2" seed="1" />
+        <feDisplacementMap id="dog-displace" in="SourceGraphic" scale="0" xChannelSelector="R" yChannelSelector="G" />
+      </filter>
+    </svg>
+
+    <script src="js/main.js"></script>
+  </body>
+</html>
+
+
